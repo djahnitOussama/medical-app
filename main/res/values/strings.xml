@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Djahnit\u0020application</string>
+    <string name="action_settings">Settings</string>
+    <string name="textmain">welcome\u0020to\u0020djahnit"'"s\u0020application\u0020,this\u0020application\u0020helps\u0020you\u0020to\u0020remember\u0020to\u0020take\u0020your\u0020pills</string>
+    <string name="button">Medicine</string>
+    <string name="button2">medical\u0020prescriptions</string>
+    <string name="title_pills">Medicament\u0020activity</string>
+    <string name="title_add_pills">Add\u0020Pill\u0020window </string>
+    <string name="fab" > add\u0020pills</string>
+    <string name="namePill">Name</string>
+    <string name="dosePill">Dose(mg)</string>
+    <string name="formatPill">Format(capsule,tablet,liquid)</string>
+    <string name="done">done</string>
+</resources>

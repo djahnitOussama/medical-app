@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">application de Djahnit</string>
+    <string name="action_settings">parametres</string>
+    <string name="textmain" >bienvenue\u0020sur\u0020l"'"\u0020application\u0020de\u0020djahnit\u0020,cette\u0020application\u0020vous\u0020aide\u0020à\u0020prendre\u0020vos\u0020medicaments</string>
+    <string name="button">Medicaments</string>
+    <string name="button2">Ordonnances</string>
+    <string name="title_pills">Medicaments</string>
+    <string name="title_add_pills">Ajouter\u0020\medicament </string>
+    <string name="fab" > ajouter\u0020medicaments</string>
+    <string name="namePill">Nom</string>
+    <string name="dosePill">Dose(mg)</string>
+    <string name="formatPill">Format(gélule,comprimé,liquide)</string>
+    <string name="done">valider</string>
+</resources>
