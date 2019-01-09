@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">application de Djahnit</string>
+    <string name="app_name">Suivie de Prescription</string>
     <string name="action_settings">parametres</string>
     <string name="textmain" >bienvenue\u0020sur\u0020l"'"\u0020application\u0020de\u0020djahnit\u0020,cette\u0020application\u0020vous\u0020aide\u0020à\u0020prendre\u0020vos\u0020medicaments</string>
     <string name="button">Medicaments</string>
@@ -12,4 +12,42 @@
     <string name="dosePill">Dose(mg)</string>
     <string name="formatPill">Format(gélule,comprimé,liquide)</string>
     <string name="done">valider</string>
+    <string name="upload_pic">charger une photo</string>
+    <string name="title_Prescription">Prescription</string>
+    <string name="button3">Posologie</string>
+    <string name="actif">actif</string>
+    <string name="inactif">inactif</string>
+    <string name="title_add_Prescription">Add Prescription</string>
+    <string name="spinner_title2">choose when you should take the pill</string>
+    <string name="spinner_title1">choose how much you\'ll take your pill per day</string>
+    <string name="spinner_title">choose pill</string>
+    <string name="submit">submit</string>
+    <string name="choice1">matin</string>
+    <string name="choice2">midi</string>
+    <string name="choice3">soir</string>
+    <string name="choice4">nuit</string>
+    <string name="choice5">matin,soir</string>
+    <string name="choice6">matin,nuit</string>
+    <string name="choice7">midi,soir</string>
+    <string name="choice8">midi,nuit</string>
+    <string name="choice9">matin,midi,soir</string>
+    <string name="choice10">midi,soir,nuit</string>
+    <string name="choice11">matin,midi,soir,nuit</string>
+    <string name="choicea">avant repas</string>
+    <string name="choiceb">pendant le repas</string>
+    <string name="choicec">apres le repas</string>
+    <string name="infodateexp">date d\'expiration : </string>
+    <string name="title_Read_Prescription">lire la préscription </string>
+    <string name="descriptionname">Nom du medicament :</string>
+    <string name="descriptionformat">Format du medicament</string>
+    <string name="descriptiondose">Dose du medicament :</string>
+    <string name="listpilldes">list des médicaments:</string>
+    <string name="before">passé</string>
+    <string name="soon">bientot</string>
+    <string name="now">maintenant</string>
+    <string name="descriptionquand">temps de prise:</string>
+    <string name="title_Posologie">Posologie</string>
+    <string name="default_notification_channel_title">temps de prendre le médicament</string>
+    <string name="default_notification_channel_id">temps de prendre le médicament</string>
+    <string name="messagenotification">c\'est le temps de prendre les médicaments</string>
 </resources>

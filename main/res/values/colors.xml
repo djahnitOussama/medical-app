@@ -2,5 +2,12 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#920438</color>
+    <color name="actif">#2ec925</color>
+    <color name="desactif">#d0d2d4</color>
+    <color name="dateexp">#d1040f</color>
+    <color name="soon">#b65902</color>
+    <color name="now">#d1040f</color>
+    <color name="before">#006c18</color>
+    <color name="back">#73ebf9</color>
 </resources>

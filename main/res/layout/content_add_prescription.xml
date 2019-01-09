@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Add_prescription_activity"
+    tools:showIn="@layout/activity_add_prescription"
+    android:orientation="vertical"
+    android:background="@mipmap/backgroundd2"
+    android:weightSum="1.0">
+
+    <TextView
+        android:id="@+id/listpillsdes"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="10dp"
+        android:textSize="18dp"
+        android:text="@string/listpilldes" />
+    <TextView
+        android:id="@+id/listpills"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+         />
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="10dp"
+        android:prompt="@string/spinner_title" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:prompt="@string/spinner_title1" />
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="58dp"
+        android:prompt="@string/spinner_title2" />
+
+    <EditText
+        android:id="@+id/dateEx"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:hint="DD/MM/AAAA"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/done" />
+
+
+
+
+</LinearLayout>

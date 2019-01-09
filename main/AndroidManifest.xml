@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/medocs"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/medocs"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -35,6 +35,38 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.oussama.djahnit_application.Medicament_activity" />
+        </activity>
+        <activity
+            android:name=".Prescription_activity"
+            android:label="@string/title_Prescription"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oussama.djahnit_application.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Add_prescription_activity"
+            android:label="@string/title_add_Prescription"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oussama.djahnit_application.Prescription_activity" />
+        </activity>
+        <activity
+            android:name=".Read_prescription_activity"
+            android:label="@string/title_Read_Prescription"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oussama.djahnit_application.Prescription_activity" />
+        </activity>
+        <activity
+            android:name=".Posologie"
+            android:label="@string/title_Posologie"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.oussama.djahnit_application.MainActivity" />
         </activity>
     </application>
 

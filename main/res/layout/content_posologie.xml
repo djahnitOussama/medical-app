@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/morning"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+
+        android:layout_marginTop="90dp"
+        android:background="@color/back"
+        android:text="@string/choice1"
+        android:textSize="18sp" />
+    <ListView
+        android:id="@+id/listposo"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/morning"
+        android:layout_weight="1"
+         >
+    </ListView>
+    <TextView
+        android:id="@+id/noon"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/listposo"
+        android:textSize="18sp"
+        android:background="@color/back"
+        android:text="@string/choice2" />
+
+    <ListView
+        android:id="@+id/listposo2"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/noon"
+        android:layout_weight="1"
+         >
+    </ListView>
+    <TextView
+        android:id="@+id/evening"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/back"
+        android:layout_below="@+id/listposo2"
+        android:textSize="18sp"
+        android:text="@string/choice3" />
+
+    <ListView
+        android:id="@+id/listposo3"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@+id/evening"
+        android:layout_weight="1"
+         >
+    </ListView>
+    <TextView
+        android:id="@+id/night"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/back"
+        android:layout_below="@+id/listposo3"
+        android:textSize="18sp"
+        android:text="@string/choice4" />
+
+        <ListView
+            android:id="@+id/listposo4"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_below="@+id/night"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1">
+
+        </ListView>
+
+</RelativeLayout>
+</ScrollView>

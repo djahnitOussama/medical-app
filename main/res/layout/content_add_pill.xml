@@ -8,6 +8,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".Add_pill_Activity"
     tools:showIn="@layout/activity_add_pills"
+    android:background="@mipmap/backgroundd2"
     android:orientation="vertical"
     android:weightSum="1.0">
 
@@ -20,7 +21,7 @@
         android:layout_marginHorizontal="4dp"
         android:layout_marginTop="60dp"
         android:hint="@string/namePill"
-        android:autofillHints="" />
+         />
 
     <EditText
         android:id="@+id/dose"
@@ -43,14 +44,17 @@
         />
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/imageview"
         android:layout_width="match_parent"
         android:layout_height="270dp"
-
-        android:clickable="true"
-        android:src="@mipmap/ic_launcher"
+        android:src="@mipmap/defaut_bitmap"
         />
-
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/upload_pic"
+        />
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
